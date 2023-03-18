@@ -1,0 +1,21 @@
+const Discord = require("discord.js");
+const client = new Discord.Client({
+  intents: [
+    //Discord.Intents.FLAGS.GUILDS,
+    //Discord.Intents.FLAGS.GUILD_MESSAGES
+  ]
+});
+
+client.on("ready", () => {
+  console.log("hola!");
+});
+
+client.on("messageCreate", (message) => {
+  if (message.content.startsWith("hola")) {
+    message.channel.send("Hola que tal!");
+  } else if (message.content.startsWith("adios")) {
+    message.channel.send("Hasta luego!");
+  }
+});
+
+client.login("token de tu bot");
