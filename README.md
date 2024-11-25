@@ -1,4 +1,4 @@
-## HOW TO LAUNCH YOUR DISCORD BOT ▶️⏸️
+# HOW TO LAUNCH YOUR DISCORD BOT ▶️⏸️
 
 ## Instructions:
 
