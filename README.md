@@ -12,6 +12,6 @@ node yourbotname.js
                                                                                                                                                                                                                                                                              
                                                                                                                                                                                                                                                                              
                                                                                                                                                                                                                                                                                
-## Explore all the things your bot can offer.
+### Explore all the things your bot can offer.
 
-Good luck!
+Good luck! 👾
